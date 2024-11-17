@@ -76,8 +76,8 @@ class Bot:
 
     {hijau}AUTO SWAP-SWAP / TAP-TAP {putih}THEYESCOIN_BOT
 
-    {hijau}By: {putih}t.me/alleaarning36
-    {hijau}Github: {putih}@ultrasquad_admin"""
+    {hijau}By: {putih}https://t.me/mrptechofficial
+    {hijau}Name: {putih}MRPTech"""
         if not os.path.exists(self.token_file):
             open(self.token_file, "w").write(json.dumps({}))
         print(banner)
